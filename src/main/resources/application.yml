@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: kotlin-spring-boot-microservices
+  output:
+    ansi:
+      enabled: always
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
